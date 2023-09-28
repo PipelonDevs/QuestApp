@@ -6,7 +6,7 @@ app = Flask(__name__)
 def get_model_response(prompt, expand=True):
     if expand:
         #TODO: change prompt prefix to a one that makes some sense
-        prompt = "rozszerz następujące zdanie: " + prompt
+        prompt = "rozszerz ten punkt o krótki opis z " + prompt
 
     url = "http://localhost:8080/v1/chat/completions"
     headers = {
@@ -27,8 +27,8 @@ def get_model_response(prompt, expand=True):
         print(e)
         return None
 
-@app.route('/get_model_response', methods=['POST'])
-def serve_model_response():
+@app.route('/generate-quest', methods=['POST'])
+def generate_quest():
     data = request.get_json()
     prompt = data.get('prompt')
     model_response = get_model_response(prompt)
