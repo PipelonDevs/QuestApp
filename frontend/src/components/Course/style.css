@@ -1,0 +1,91 @@
+.course {
+  background-color: #6b059e1a;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 5px;
+  height: 58px;
+  position: relative;
+  width: 307px;
+}
+
+.course .frame {
+  border-color: #ffffff;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 52px;
+  left: 3px;
+  position: absolute;
+  top: 2px;
+  width: 112px;
+}
+
+.course .COURSE-NAME {
+  color: #ed9a00;
+  font-family: "Inconsolata", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 100px;
+}
+
+.course .tags {
+  color: #ffffff;
+  font-family: "Inconsolata", Helvetica;
+  font-size: 7px;
+  font-weight: 700;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 29px;
+  width: 102px;
+}
+
+.course .overlap-group-2 {
+  height: 54px;
+  left: 116px;
+  position: absolute;
+  top: 1px;
+  width: 191px;
+}
+
+.course .frame-wrapper {
+  height: 52px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 2px;
+  width: 186px;
+}
+
+.course .SHORT-DESC-wrapper {
+  height: 38px;
+  position: relative;
+  top: 13px;
+  width: 190px;
+}
+
+.course .SHORT-DESC {
+  color: #ffffff;
+  font-family: "Inconsolata", Helvetica;
+  font-size: 7px;
+  font-weight: 700;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 182px;
+}
+
+.course .frame-2 {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 191px;
+}

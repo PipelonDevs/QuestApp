@@ -1,0 +1,74 @@
+.wyzwanie-miejskie {
+  height: 58px;
+  width: 307px;
+}
+
+.wyzwanie-miejskie .overlap-group-4 {
+  background-color: #6b059e1a;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 5px;
+  height: 60px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 309px;
+}
+
+.wyzwanie-miejskie .frame-6 {
+  border-color: #ffffff;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 57px;
+  left: 3px;
+  position: absolute;
+  top: 1px;
+  width: 70px;
+}
+
+.wyzwanie-miejskie .nazwa-wyzwania-wrapper {
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-color: #ffffff;
+  height: 16px;
+  left: 73px;
+  position: absolute;
+  top: 1px;
+  width: 234px;
+}
+
+.wyzwanie-miejskie .nazwa-wyzwania {
+  color: #ffffff;
+  font-family: "Inconsolata", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  height: 16px;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 224px;
+}
+
+.wyzwanie-miejskie .opis-wyzwania-wrapper {
+  height: 41px;
+  left: 73px;
+  position: absolute;
+  top: 17px;
+  width: 229px;
+}
+
+.wyzwanie-miejskie .opis-wyzwania {
+  color: #ffffff;
+  font-family: "Inconsolata", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+  width: 218px;
+}

@@ -1,0 +1,57 @@
+.statistic-info {
+  background-color: #2f2640;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 10px;
+  height: 69px;
+  position: relative;
+  width: 184px;
+}
+
+.statistic-info .overlap-group {
+  background-image: url(../../../static/img/background-2.svg);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 13px;
+  position: absolute;
+  top: 15px;
+  width: 40px;
+}
+
+.statistic-info .streak {
+  height: 29px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 23px;
+}
+
+.statistic-info .statistic-name {
+  color: #ffffff;
+  font-family: "Roboto", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 70px;
+  letter-spacing: 0.08px;
+  line-height: 11.9px;
+  position: absolute;
+  text-align: center;
+  top: 39px;
+  width: 89px;
+}
+
+.statistic-info .element {
+  color: #ffffff;
+  font-family: "Roboto", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 23px;
+  left: 72px;
+  letter-spacing: 0.08px;
+  line-height: 11.9px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 78px;
+}

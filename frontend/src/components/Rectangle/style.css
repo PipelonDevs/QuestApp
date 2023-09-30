@@ -1,0 +1,50 @@
+.rectangle {
+  height: 137px;
+  width: 265px;
+}
+
+.rectangle .overlap-group-5 {
+  height: 122px;
+  left: 7px;
+  position: relative;
+  top: 12px;
+  width: 253px;
+}
+
+.rectangle .profilepic-nude {
+  height: 108px;
+  left: 145px;
+  position: absolute;
+  top: 0;
+  width: 108px;
+}
+
+.rectangle .USERNAME-username {
+  color: #000000;
+  font-family: "Roboto", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.08px;
+  line-height: 11.9px;
+  position: absolute;
+  top: 59px;
+  width: 203px;
+}
+
+.rectangle .span {
+  color: #000000;
+  font-family: "Roboto", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.08px;
+  line-height: 11.9px;
+}
+
+.rectangle .text-wrapper-2 {
+  font-size: 11px;
+}
+
+.rectangle .text-wrapper-3 {
+  font-size: 12px;
+}

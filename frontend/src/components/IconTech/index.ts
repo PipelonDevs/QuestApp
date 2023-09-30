@@ -1,0 +1,1 @@
+export { IconTech } from "./IconTech";
