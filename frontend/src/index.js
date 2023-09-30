@@ -10,4 +10,4 @@ import {ProfilPage} from './screens/ProfilPage/ProfilPage';
 const container = document.getElementById('root');
 const root = createRoot(container);
 
-root.render(<ProfilPage />);
+root.render(<CourseGenerator />);
