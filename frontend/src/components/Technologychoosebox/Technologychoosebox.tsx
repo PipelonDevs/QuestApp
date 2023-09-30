@@ -3,9 +3,9 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
-import PropTypes from 'prop-types';
-import React from 'react';
-import './style.css';
+import PropTypes from "prop-types";
+import React from "react";
+import "./style.css";
 
 interface Props {
   text: string;
@@ -13,8 +13,8 @@ interface Props {
 }
 
 export const Technologychoosebox = ({
-  text = 'technology tags',
-  text1 = 'TECHNOLOGY NAME',
+  text = "technology tags",
+  text1 = "TECHNOLOGY NAME",
 }: Props): JSX.Element => {
   return (
     <div className="technologychoosebox">

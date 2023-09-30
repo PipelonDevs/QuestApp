@@ -1,1 +1,1 @@
-export {CourseGenerator} from './CourseGenerator';
+export {CourseGenerator} from "./CourseGenerator";

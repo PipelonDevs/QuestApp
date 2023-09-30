@@ -1,7 +1,7 @@
-import {QuestInfoBox} from '.';
+import {QuestInfoBox} from ".";
 
 export default {
-  title: 'Components/QuestInfoBox',
+  title: "Components/QuestInfoBox",
   component: QuestInfoBox,
 };
 
@@ -9,8 +9,8 @@ export const Default = {
   args: {
     className: {},
     divClassName: {},
-    text: 'QUEST NAME',
+    text: "QUEST NAME",
     questDescClassName: {},
-    text1: 'quest desc<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.',
+    text1: "quest desc<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.",
   },
 };

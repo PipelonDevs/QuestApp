@@ -1,1 +1,1 @@
-export {Chevronrightfilled} from './Chevronrightfilled';
+export {Chevronrightfilled} from "./Chevronrightfilled";

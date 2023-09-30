@@ -1,1 +1,1 @@
-export {QuestInfoBox} from './QuestInfoBox';
+export {QuestInfoBox} from "./QuestInfoBox";

@@ -1,7 +1,7 @@
-import {EasyFlagLvl} from '.';
+import {EasyFlagLvl} from ".";
 
 export default {
-  title: 'Components/EasyFlagLvl',
+  title: "Components/EasyFlagLvl",
   component: EasyFlagLvl,
 };
 

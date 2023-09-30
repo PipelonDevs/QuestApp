@@ -1,8 +1,8 @@
-import React from 'react';
-import {CourseInput} from '../../components/CourseInput';
-import {GeneratedQuest} from '../../components/GeneratedQuest';
-import {SideBar} from '../../components/SideBar';
-import './style.css';
+import React from "react";
+import {CourseInput} from "../../components/CourseInput";
+import {GeneratedQuest} from "../../components/GeneratedQuest";
+import {SideBar} from "../../components/SideBar";
+import "./style.css";
 
 export const CourseGenerated = () => {
   return (

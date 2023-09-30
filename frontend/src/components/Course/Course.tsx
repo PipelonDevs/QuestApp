@@ -3,10 +3,10 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
-import PropTypes from 'prop-types';
-import React from 'react';
-import {IconTech} from '../IconTech';
-import './style.css';
+import PropTypes from "prop-types";
+import React from "react";
+import {IconTech} from "../IconTech";
+import "./style.css";
 
 interface Props {
   className: any;
@@ -33,14 +33,14 @@ export const Course = ({
   className,
   frameClassName,
   divClassName,
-  text = 'COURSE NAME',
+  text = "COURSE NAME",
   divClassNameOverride,
-  text1 = '#tags',
+  text1 = "#tags",
   overlapGroupClassName,
   frameClassNameOverride,
   SHORTDescWrapperClassName,
   SHORTDescClassName,
-  text2 = 'SHORT DESC.....<br/>.<br/>.<br/>.',
+  text2 = "SHORT DESC.....<br/>.<br/>.<br/>.",
   frameClassName1,
   iconTechIconTechClassName,
   iconTechIconTechClassNameOverride,

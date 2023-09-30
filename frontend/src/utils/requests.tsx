@@ -1,8 +1,8 @@
 async function sendPostRequest(url: string, data: any): Promise<any> {
   const response = await fetch(url, {
-    method: 'POST',
+    method: "POST",
     headers: {
-      'Content-Type': 'application/json',
+      "Content-Type": "application/json",
     },
     body: JSON.stringify(data),
   })

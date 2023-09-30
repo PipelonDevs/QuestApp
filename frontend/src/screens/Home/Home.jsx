@@ -1,11 +1,11 @@
-import React from 'react';
-import {Button} from '../../components/Button';
-import {Course} from '../../components/Course';
-import {IconTech} from '../../components/IconTech';
-import {SearchBar} from '../../components/SearchBar';
-import {SideBar} from '../../components/SideBar';
-import {WyzwanieMiejskie} from '../../components/WyzwanieMiejskie';
-import './style.css';
+import React from "react";
+import {Button} from "../../components/Button";
+import {Course} from "../../components/Course";
+import {IconTech} from "../../components/IconTech";
+import {SearchBar} from "../../components/SearchBar";
+import {SideBar} from "../../components/SideBar";
+import {WyzwanieMiejskie} from "../../components/WyzwanieMiejskie";
+import "./style.css";
 
 export const Home = () => {
   return (

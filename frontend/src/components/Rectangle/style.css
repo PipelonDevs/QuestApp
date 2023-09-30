@@ -21,7 +21,7 @@
 
 .rectangle .USERNAME-username {
   color: #000000;
-  font-family: 'Roboto', Helvetica;
+  font-family: "Roboto", Helvetica;
   font-size: 18px;
   font-weight: 400;
   left: 0;
@@ -34,7 +34,7 @@
 
 .rectangle .span {
   color: #000000;
-  font-family: 'Roboto', Helvetica;
+  font-family: "Roboto", Helvetica;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.08px;

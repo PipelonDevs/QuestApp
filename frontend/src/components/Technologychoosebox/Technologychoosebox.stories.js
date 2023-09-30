@@ -1,13 +1,13 @@
-import {Technologychoosebox} from '.';
+import {Technologychoosebox} from ".";
 
 export default {
-  title: 'Components/Technologychoosebox',
+  title: "Components/Technologychoosebox",
   component: Technologychoosebox,
 };
 
 export const Default = {
   args: {
-    text: 'technology tags',
-    text1: 'TECHNOLOGY NAME',
+    text: "technology tags",
+    text1: "TECHNOLOGY NAME",
   },
 };

@@ -1,1 +1,1 @@
-export {CourseInput} from './CourseInput';
+export {CourseInput} from "./CourseInput";

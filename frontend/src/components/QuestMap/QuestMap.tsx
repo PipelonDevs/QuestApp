@@ -3,10 +3,10 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
-import PropTypes from 'prop-types';
-import React from 'react';
-import {RectangleWrapper} from '../RectangleWrapper';
-import './style.css';
+import PropTypes from "prop-types";
+import React from "react";
+import {RectangleWrapper} from "../RectangleWrapper";
+import "./style.css";
 
 interface Props {
   className: any;
@@ -15,7 +15,7 @@ interface Props {
 
 export const QuestMap = ({
   className,
-  iconForward = '/img/icon-forward-10-seconds.png',
+  iconForward = "/img/icon-forward-10-seconds.png",
 }: Props): JSX.Element => {
   return (
     <div className={`quest-map ${className}`}>
