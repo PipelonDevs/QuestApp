@@ -11,8 +11,8 @@ import "./style.css";
 export const PropertyDefault = ({
   // eslint-disable-next-line react/prop-types
   className,
-  line = "/line-1-1.svg",
-  img = "/line-2-1.svg",
+  line = "/img/line1-1.svg",
+  img = "/img/line2-1.svg",
 }) => {
   return (
     <div className={`property-default ${className}`}>

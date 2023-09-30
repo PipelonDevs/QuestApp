@@ -26,8 +26,8 @@ export const CoursePage = () => {
         />
         <PropertyDefault
           className="quest-map"
-          img="/line-2.svg"
-          line="/line-1.svg"
+          img="/img/line-2.svg"
+          line="/img/line-1.svg"
         />
         <div className="course-name">Programowanie gry “Snake”</div>
         <CommentBox

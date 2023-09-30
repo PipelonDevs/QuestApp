@@ -45,7 +45,7 @@ export const CourseGenerated = () => {
               text1="Q2"
             />
             <GeneratedQuest
-              line="/line-5-1.svg"
+              line="/img/line-5-1.svg"
               text="Utwórz obiekt węża, który będzie składał się z pojedynczych segmentów. Początkowo będzie składał się z jednego segmentu i będzie umieszczony w środku planszy."
               text1="Q3"
             />
