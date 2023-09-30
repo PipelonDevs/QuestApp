@@ -12,10 +12,9 @@ api_key = "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"
 # Initialize the OpenAI API client
 openai.api_key = api_key
 
-@app.route('/generate-response', methods=['POST'])
+@app.route('/api/generate-response', methods=['POST'])
 @cross_origin()
 def generate_response():
-    # Get the prompt from the POST request
     data = request.get_json()
     prompt = data.get('prompt')
     technologies = data.get('tech')
@@ -42,8 +41,9 @@ def generate_response():
             ],
         )
 
-        # Extract the generated text
+
         generated_text = response.choices[0].message["content"]
+        generated_text = generated_text.split('\n')
         return jsonify({'response': generated_text})
 
     except Exception as e:
@@ -58,7 +58,6 @@ def add_user():
 
         created_at_str = data['created_at']
 
-        # Step 1: Parse the date string into a datetime object
         created_at_datetime = datetime.strptime(created_at_str, "%d-%m-%Y")
 
         user = User(username=data['username'], role=data['role'], created_at=created_at_datetime)
@@ -116,6 +115,47 @@ def get_courses():
     try:
         courses = Course.query.all()
         return json.dumps(Serializer.serialize_list(courses), indent=4, sort_keys=True, default=str), 200
+    except Exception as e:
+        return json.dumps({'error': 'An error occurred', 'details': str(e)}, indent=4, sort_keys=True, default=str), 500
+
+
+@app.route('/api/get_city_challenges', methods=['GET'])
+@cross_origin()
+def get_city_challenges():
+    try:
+        challenges = CityChallenge.query.all()
+        return json.dumps(Serializer.serialize_list(challenges), indent=4, sort_keys=True, default=str), 200
+    except Exception as e:
+        return json.dumps({'error': 'An error occurred', 'details': str(e)}, indent=4, sort_keys=True, default=str), 500
+
+@app.route('/api/add_city_challenge_to_user', methods=['POST'])
+@cross_origin()
+def add_city_challenge_to_user():
+    try:
+        data = request.json
+        user = User.query.filter_by(id=data['user_id']).first()
+        challenge = CityChallenge.query.filter_by(id=data['city_challenge_id']).first()
+        user.city_challenges.append(challenge)
+        db.session.commit()
+        return json.dumps({'message': 'Challenge added to user successfully'}, indent=4, sort_keys=True, default=str), 200
+    except Exception as e:
+        return json.dumps({'error': 'An error occurred', 'details': str(e)}, indent=4, sort_keys=True, default=str), 500
+
+@app.route('/api/add_city_challenge', methods=['POST'])
+@cross_origin()
+def add_city_challenge():
+    try:
+        data = request.json
+        challenge = CityChallenge(title=data['title'], description=data['description'], created_by=data['created_by'])
+        for t in data['technologies']:
+            technology = Technology(name=t['name'])
+            for tag in t['tags']:
+                tag = Tag(name=tag['name'])
+                technology.tags.append(tag)
+            challenge.technologies.append(technology)
+        db.session.add(challenge)
+        db.session.commit()
+        return json.dumps({'message': 'Challenge added successfully'}, indent=4, sort_keys=True, default=str), 200
     except Exception as e:
         return json.dumps({'error': 'An error occurred', 'details': str(e)}, indent=4, sort_keys=True, default=str), 500
 
