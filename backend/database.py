@@ -25,7 +25,6 @@ class Serializer(object):
         return [element.serialize() for element in list_to_be_serialized]
 
 
-<<<<<<< HEAD
 user_course = db.Table('user_course',
     db.Column('user_id', db.Integer, db.ForeignKey('user.id'), primary_key=True),
     db.Column('course_id', db.Integer, db.ForeignKey('course.id'), primary_key=True),
@@ -44,17 +43,7 @@ technology_tag = db.Table('technology_tag',
     db.Column('tag_id', db.Integer, db.ForeignKey('tag.id'), primary_key=True),
 )
 
-city_challange_technology = db.Table('city_challange_technology',
-    db.Column('city_challenge_id', db.Integer, db.ForeignKey('city_challenge.id'), primary_key=True),
-    db.Column('technology_id', db.Integer, db.ForeignKey('technology.id'), primary_key=True),
-)
 
-course_technology = db.Table('course_technology',
-    db.Column('course_id', db.Integer, db.ForeignKey('course.id'), primary_key=True),
-    db.Column('technology_id', db.Integer, db.ForeignKey('technology.id'), primary_key=True),
-)
-
-=======
 city_challenge_technologies = db.Table("city_challenge_technologies",
                                        db.Column("city_challenge_id", db.Integer, db.ForeignKey("city_challenge.id"),
                                                  primary_key=True),
@@ -65,7 +54,6 @@ city_challenge_technologies = db.Table("city_challenge_technologies",
 course_technologies = db.Table("course_technologies",
                                db.Column("course_id", db.Integer, db.ForeignKey("course.id"), primary_key=True),
                                db.Column("technology_name"), db.String, db.ForeignKey("technology.name"), primary_key=True)
->>>>>>> bba64baca14f3f1d9fcac049f3c6b166da61a01b
 
 
 class CityChallenge(db.Model):
@@ -74,12 +62,8 @@ class CityChallenge(db.Model):
     title = db.Column(db.String)
     description = db.Column(db.Text)
     created_by = db.Column(db.String)
-<<<<<<< HEAD
-    technologies = db.relationship("Technology", secondary=city_challange_technology, backref="city_challenges")
-=======
     technologies = db.relationship("Technology", secondary=city_challenge_technologies, backref="city_challenges")
 
->>>>>>> bba64baca14f3f1d9fcac049f3c6b166da61a01b
     def serialize(self):
         d = Serializer.serialize(self)
         return d
