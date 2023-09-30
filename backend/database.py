@@ -91,7 +91,7 @@ class Course(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String)
     description = db.Column(db.Text)
-    technologies = db.relationship("Technology", secondary=course_technology, backref="courses")
+    technologies = db.relationship("Technology", secondary=course_technologies, backref="courses")
     quests = db.relationship("Quest", backref="course")
     difficulty = db.relationship("Difficulty", backref="course")
 
