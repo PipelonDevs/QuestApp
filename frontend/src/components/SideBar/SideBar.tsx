@@ -7,6 +7,7 @@ import React from "react";
 import "./style.css";
 import {useNavigate} from "react-router-dom";
 
+
 interface Props {
   rectangleClassName: any;
   rectangleClassNameOverride: any;
@@ -36,6 +37,7 @@ export const SideBar = ({
           src="/img/notificationbell-1.png"
         />
       </div>
+
       <div
         className="new-course-button"
         onClick={() => navigate("/stworz-kurs", {})}>
