@@ -2,17 +2,18 @@ async function sendPostRequest(url: string, data: any): Promise<any> {
   const response = await fetch(url, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
     },
-    body: JSON.stringify(data)
+    body: JSON.stringify(data),
   })
-  .then((response) => response.json())
-  .then((data) => {
-    return data;
-  }).catch((error) => {
-    console.log(error);
-    return {};
-  });
+    .then(response => response.json())
+    .then(data => {
+      return data;
+    })
+    .catch(error => {
+      console.log(error);
+      return {};
+    });
   return response;
 }
 
@@ -23,7 +24,7 @@ export default sendPostRequest;
 // type genQuestResponse = {
 //   model_response: string
 // }
-// sendPostRequest(`${prefix}/generate-quest`, 
+// sendPostRequest(`${prefix}/generate-quest`,
 //   {
 //     "prompt": "Stwórz swoje portolio www od podstaw!"
 //   }

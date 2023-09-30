@@ -1,0 +1,1 @@
+export {StatisticInfo} from './StatisticInfo';

@@ -1,0 +1,180 @@
+.profil-page {
+  background-color: #282a36;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.profil-page .div-2 {
+  background-color: #282a36;
+  height: 832px;
+  position: relative;
+  width: 1280px;
+}
+
+.profil-page .side-bar-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.profil-page .side-bar-2 {
+  border-color: unset !important;
+}
+
+.profil-page .page-content {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 103px;
+  position: absolute;
+  top: 62px;
+}
+
+.profil-page .statystyki {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 17px;
+  height: 733px;
+  position: relative;
+}
+
+.profil-page .text-wrapper-6 {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.profil-page .badges {
+  height: 107px;
+  position: relative;
+  width: 576px;
+}
+
+.profil-page .strike-container {
+  height: 107px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.profil-page .statistic-info-instance {
+  left: 52px !important;
+  top: 19px !important;
+  width: 185px !important;
+}
+
+.profil-page .statistic-info-2 {
+  background-image: url(../../../public/img/background.svg) !important;
+}
+
+.profil-page .longest-strike-wrapper {
+  height: 107px;
+  left: 288px;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.profil-page .text-wrapper-7 {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.profil-page .portfolio-instance {
+  flex: 0 0 auto !important;
+}
+
+.profil-page .wyzwanie-miejskie-instance {
+  height: 100px !important;
+  position: relative !important;
+  width: 537.37px !important;
+}
+
+.profil-page .wyzwanie-miejskie-2 {
+  border: 1.67px solid !important;
+  height: 103px !important;
+  left: -2px !important;
+  top: -2px !important;
+  width: 541px !important;
+}
+
+.profil-page .wyzwanie-miejskie-3 {
+  border-right-width: 1.67px !important;
+  height: 95px !important;
+  left: 5px !important;
+  top: 2px !important;
+  width: 117px !important;
+}
+
+.profil-page .wyzwanie-miejskie-4 {
+  border-bottom-width: 0.84px !important;
+  height: 27px !important;
+  left: 122px !important;
+  top: 2px !important;
+  width: 392px !important;
+}
+
+.profil-page .wyzwanie-miejskie-5 {
+  font-size: 20.1px !important;
+  height: 27px !important;
+  left: 8px !important;
+  top: -1px !important;
+  width: 375px !important;
+}
+
+.profil-page .wyzwanie-miejskie-6 {
+  height: 69px !important;
+  left: 122px !important;
+  top: 28px !important;
+  width: 383px !important;
+}
+
+.profil-page .wyzwanie-miejskie-7 {
+  font-size: 11px !important;
+  left: 18px !important;
+  top: 5px !important;
+  width: 365px !important;
+}
+
+.profil-page .profil-page-right {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 110px;
+  height: 733px;
+  padding: 0px 82px;
+  position: relative;
+}
+
+.profil-page .design-component-instance-node-5 {
+  position: relative !important;
+}
+
+.profil-page .rectangle-8-profileinfobox {
+  object-fit: cover !important;
+}
+
+.profil-page .rectangle-8-profileinfobox-instance {
+  color: #d9d9d9 !important;
+}

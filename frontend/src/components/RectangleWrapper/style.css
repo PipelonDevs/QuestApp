@@ -1,0 +1,48 @@
+.rectangle-wrapper {
+  background-color: #fefee3;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #000000;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 80px;
+  position: relative;
+  width: 412px;
+}
+
+.rectangle-wrapper .rectangle-2 {
+  background-color: #d9d9d9;
+  height: 60px;
+  left: 11px;
+  position: absolute;
+  top: 9px;
+  width: 60px;
+}
+
+.rectangle-wrapper .TITLE {
+  color: #000000;
+  font-family: 'Roboto', Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  left: 106px;
+  letter-spacing: 0.08px;
+  line-height: 11.9px;
+  position: absolute;
+  top: 13px;
+  width: 276px;
+}
+
+.rectangle-wrapper .DESC {
+  color: #000000;
+  font-family: 'Roboto', Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  height: 20px;
+  left: 108px;
+  letter-spacing: 0.08px;
+  line-height: 11.9px;
+  position: absolute;
+  top: 48px;
+  width: 288px;
+}

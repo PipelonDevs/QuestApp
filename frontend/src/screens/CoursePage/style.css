@@ -1,0 +1,81 @@
+.course-page {
+  background-color: #282a36;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.course-page .div-4 {
+  background-color: #282a36;
+  height: 832px;
+  position: relative;
+  width: 1280px;
+}
+
+.course-page .side-bar-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.course-page .design-component-instance-node {
+  border-color: unset !important;
+}
+
+.course-page .quest-info-box-instance {
+  height: 295px !important;
+  left: 112px !important;
+  position: absolute !important;
+  top: 120px !important;
+}
+
+.course-page .quest-info-box-2 {
+  font-size: 25px !important;
+  height: unset !important;
+  left: 23px !important;
+  top: 12px !important;
+  white-space: unset !important;
+}
+
+.course-page .quest-info-box-3 {
+  height: 160px !important;
+  left: 41px !important;
+}
+
+.course-page .quest-map {
+  left: 136px !important;
+  position: absolute !important;
+  top: 482px !important;
+}
+
+.course-page .course-name {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  height: 22px;
+  left: 215px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 82px;
+  width: 341px;
+}
+
+.course-page .comment-box-instance {
+  left: 696px !important;
+  position: absolute !important;
+  top: 121px !important;
+}
+
+.course-page .comment-box-2 {
+  background-color: #18be1d !important;
+  border: 1px solid !important;
+  border-color: #50fa7b !important;
+  border-radius: 4px !important;
+  left: 441px !important;
+  position: absolute !important;
+  top: 199px !important;
+}
