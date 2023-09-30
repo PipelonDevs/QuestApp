@@ -31,19 +31,31 @@ class CityChallenge(db.Model):
     description = db.Column(db.Text)
     created_by = db.Column(db.String)
 
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
+
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String)
     role = db.Column(db.String)
-    created_at = db.Column(db.TIMESTAMP)
+    created_at = db.Column(db.DateTime)
+
+    def serialize(self):
+        d = Serializer.serialize(self)
+        d['created_at'] = d['created_at'].strftime('%Y-%m-%d-%H-%M')
+        return d
 
 
 class Course(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String)
     description = db.Column(db.Text)
-    difficulty = db.Column(db.String)
+
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
 
 
 class UserCourses(db.Model):
@@ -51,20 +63,36 @@ class UserCourses(db.Model):
     course_id = db.Column(db.Integer, primary_key=True)
     is_finished = db.Column(db.Boolean)
 
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
+
 
 class UserCityChallenges(db.Model):
     user_id = db.Column(db.Integer, primary_key=True)
     city_challenge_id = db.Column(db.Integer, primary_key=True)
     is_finished = db.Column(db.Boolean)
 
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
+
 
 class Technology(db.Model):
     name = db.Column(db.String, primary_key=True)
+
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
 
 
 class Tag(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
+
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
 
 
 class Quests(db.Model):
@@ -75,25 +103,45 @@ class Quests(db.Model):
     course_id = db.Column(db.Integer)
     comment = db.Column(db.Text)
 
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
+
 
 class Difficulty(db.Model):
     name = db.Column(db.String, primary_key=True)
     course_id = db.Column(db.Integer)
+
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
 
 
 class CityChallengeTechnologies(db.Model):
     city_challenge_id = db.Column(db.Integer, primary_key=True)
     technology_name = db.Column(db.String, primary_key=True)
 
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
+
 
 class TechnologyTags(db.Model):
     technology_name = db.Column(db.String, primary_key=True)
     tag_id = db.Column(db.Integer, primary_key=True)
 
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
+
 
 class CourseTechnologies(db.Model):
     course_id = db.Column(db.Integer, primary_key=True)
     technology_name = db.Column(db.String, primary_key=True)
+
+    def serialize(self):
+        d = Serializer.serialize(self)
+        return d
 
 
 # Define relationships

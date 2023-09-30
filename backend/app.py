@@ -1,11 +1,12 @@
 from flask import Flask, request, jsonify
-from flask_cors import cross_origin
+from flask_cors import CORS, cross_origin
 import requests
 
 app = Flask(__name__)
 
+
 def get_model_response(prompt):
-    #TODO: change prompt prefix to a one that makes some sense
+    # TODO: change prompt prefix to a one that makes some sense
     # prompt = f"""W języku polskim, stwórz listę kroków niezbędnych do wykonania projektu podanego poniżej, na przykład: 
     # dla 'programowanie kalkulatora' powinno zwrócić odpowiedź podobną do:
     # 1. Zdefiniuj podstawowe operacje matematyczne jako funkcje (dodawanie, odejmowanie, mnożenie, dzielenie).
@@ -60,6 +61,7 @@ def get_model_response(prompt):
         print(e)
         return None
 
+
 @app.route('/generate-quest', methods=['POST'])
 @cross_origin()
 def generate_quest():
@@ -73,6 +75,7 @@ def generate_quest():
     else:
         response = jsonify({"error": "Failed to get model response"})
         return response, 500
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001)
