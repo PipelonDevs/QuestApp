@@ -1,0 +1,443 @@
+.home {
+  background-color: #282a36;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div-2 {
+  background-color: #282a36;
+  height: 832px;
+  position: relative;
+  width: 1280px;
+}
+
+.home .side-bar-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.home .design-component-instance-node {
+  border-color: unset !important;
+}
+
+.home .frame-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 14px;
+  left: 131px;
+  position: absolute;
+  top: 85px;
+}
+
+.home .frame-5 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: 663px;
+  position: relative;
+}
+
+.home .frame-6 {
+  height: 219px;
+  position: relative;
+  width: 551px;
+}
+
+.home .overlap {
+  height: 160px;
+  left: 7px;
+  position: absolute;
+  top: -1px;
+  width: 537px;
+}
+
+.home .wyzwanie-miejskie-instance {
+  height: 100px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 60px !important;
+  width: 537px !important;
+}
+
+.home .wyzwanie-miejskie-2 {
+  border: 1.67px solid !important;
+  height: 103px !important;
+  left: -2px !important;
+  top: -2px !important;
+  width: 541px !important;
+}
+
+.home .wyzwanie-miejskie-3 {
+  border-right-width: 1.67px !important;
+  height: 95px !important;
+  left: 5px !important;
+  top: 2px !important;
+  width: 117px !important;
+}
+
+.home .wyzwanie-miejskie-4 {
+  border-bottom-width: 0.84px !important;
+  height: 27px !important;
+  left: 122px !important;
+  top: 2px !important;
+  width: 392px !important;
+}
+
+.home .wyzwanie-miejskie-5 {
+  font-size: 20.1px !important;
+  height: 27px !important;
+  left: 8px !important;
+  top: -1px !important;
+  width: 375px !important;
+}
+
+.home .wyzwanie-miejskie-6 {
+  height: 69px !important;
+  left: 122px !important;
+  top: 28px !important;
+  width: 383px !important;
+}
+
+.home .wyzwanie-miejskie-7 {
+  font-size: 11px !important;
+  left: 18px !important;
+  top: 5px !important;
+  width: 365px !important;
+}
+
+.home .text-wrapper-4 {
+  color: #18be1d;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  height: 61px;
+  left: 102px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 333px;
+}
+
+.home .poprzednie {
+  background-color: #18be1d !important;
+  border: 1px solid !important;
+  border-color: #ffffff !important;
+  border-radius: 4px !important;
+  left: 7px !important;
+  position: absolute !important;
+  top: 170px !important;
+}
+
+.home .button-instance {
+  font-family: 'Inconsolata', Helvetica !important;
+  font-size: 16px !important;
+  font-style: unset !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.4px !important;
+  line-height: 24px !important;
+}
+
+.home .poprzednie-2 {
+  background-color: #18be1d !important;
+  border: 1px solid !important;
+  border-color: #ffffff !important;
+  border-radius: 4px !important;
+  left: 442px !important;
+  position: absolute !important;
+  top: 170px !important;
+}
+
+.home .frame-7 {
+  height: 430px;
+  position: relative;
+  width: 550px;
+}
+
+.home .course-instance {
+  border: 1.77px solid !important;
+  height: 100px !important;
+  left: 6px !important;
+  position: absolute !important;
+  top: 200px !important;
+  width: 537px !important;
+}
+
+.home .course-2 {
+  border-right-width: 1.77px !important;
+  height: 90px !important;
+  left: 5px !important;
+  top: 3px !important;
+  width: 196px !important;
+}
+
+.home .course-3 {
+  font-size: 20px !important;
+  left: 7px !important;
+  top: 4px !important;
+  width: 177px !important;
+}
+
+.home .course-4 {
+  font-size: 12.4px !important;
+  left: 4px !important;
+  top: 51px !important;
+  width: 181px !important;
+}
+
+.home .course-5 {
+  height: 94px !important;
+  left: 203px !important;
+  top: 2px !important;
+  width: 334px !important;
+}
+
+.home .course-6 {
+  height: 90px !important;
+  top: 3px !important;
+  width: 326px !important;
+}
+
+.home .course-7 {
+  height: 67px !important;
+  top: 23px !important;
+  width: 337px !important;
+}
+
+.home .course-8 {
+  font-size: 11px !important;
+  left: 5px !important;
+  top: 4px !important;
+  width: 323px !important;
+}
+
+.home .course-9 {
+  height: 26px !important;
+  width: 334px !important;
+}
+
+.home .design-component-instance-node-2 {
+  height: 18px !important;
+  left: 9px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.home .design-component-instance-node-3 {
+  height: 18px !important;
+  left: 41px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.home .design-component-instance-node-4 {
+  height: 18px !important;
+  left: 73px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.home .design-component-instance-node-5 {
+  height: 18px !important;
+  left: 105px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.home .icon-tech-2 {
+  height: 18px !important;
+  left: 137px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.home .icon-tech-3 {
+  height: 18px !important;
+  left: 168px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.home .course-10 {
+  background-color: #6b059e1a;
+  border: 1.77px solid;
+  border-color: #ffffff;
+  border-radius: 5px;
+  height: 100px;
+  left: 6px;
+  position: absolute;
+  top: 68px;
+  width: 537px;
+}
+
+.home .frame-8 {
+  border-color: #ffffff;
+  border-right-style: solid;
+  border-right-width: 1.77px;
+  height: 90px;
+  left: 5px;
+  position: absolute;
+  top: 3px;
+  width: 196px;
+}
+
+.home .COURSE-NAME-2 {
+  color: #ed9a00;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  width: 177px;
+}
+
+.home .tags-2 {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 12.4px;
+  font-weight: 700;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+  width: 181px;
+}
+
+.home .overlap-group-3 {
+  height: 94px;
+  left: 203px;
+  position: absolute;
+  top: 2px;
+  width: 334px;
+}
+
+.home .div-wrapper {
+  height: 90px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 3px;
+  width: 326px;
+}
+
+.home .frame-9 {
+  height: 67px;
+  position: relative;
+  top: 23px;
+  width: 337px;
+}
+
+.home .p {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 11px;
+  font-weight: 700;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  width: 323px;
+}
+
+.home .frame-10 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 334px;
+}
+
+.home .text-wrapper-5 {
+  color: #18be1d;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  height: 61px;
+  left: 108px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 333px;
+}
+
+.home .course-11 {
+  background-color: #6b059e1a;
+  border: 1.77px solid;
+  border-color: #ffffff;
+  border-radius: 5px;
+  height: 100px;
+  left: 6px;
+  position: absolute;
+  top: 330px;
+  width: 537px;
+}
+
+.home .frame-11 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  position: relative;
+  width: 553px;
+}
+
+.home .text-wrapper-6 {
+  color: #18be1d;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  height: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 333px;
+}
+
+.home .course-12 {
+  background-color: #6b059e1a;
+  border: 1.77px solid;
+  border-color: #ffffff;
+  border-radius: 5px;
+  height: 100px;
+  position: relative;
+  width: 537.37px;
+}
+
+.home .course-13 {
+  border: 1.77px solid !important;
+  height: 100px !important;
+  width: 537.37px !important;
+}
+
+.home .COURSE-NAME-3 {
+  color: #ed9a00;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 21.3px;
+  font-weight: 700;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  width: 177px;
+}

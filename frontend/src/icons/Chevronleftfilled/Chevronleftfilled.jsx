@@ -5,14 +5,10 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import React from 'react';
 
-interface Props {
-  className: any;
-}
-
-export const Chevronrightfilled = ({className}: Props): JSX.Element => {
+export const Chevronleftfilled = ({className}) => {
   return (
     <svg
-      className={`chevronrightfilled ${className}`}
+      className={`chevronleftfilled ${className}`}
       fill="none"
       height="24"
       viewBox="0 0 24 24"
@@ -20,7 +16,7 @@ export const Chevronrightfilled = ({className}: Props): JSX.Element => {
       xmlns="http://www.w3.org/2000/svg">
       <path
         className="path"
-        d="M9.705 6L8.295 7.41L12.875 12L8.295 16.59L9.705 18L15.705 12L9.705 6Z"
+        d="M15.705 7.41L14.295 6L8.295 12L14.295 18L15.705 16.59L11.125 12L15.705 7.41Z"
         fill="black"
         fillOpacity="0.56"
       />
