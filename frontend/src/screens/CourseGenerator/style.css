@@ -35,7 +35,7 @@
 
 .course-generator .text-wrapper-3 {
   color: #ffffff;
-  font-family: 'Inconsolata', Helvetica;
+  font-family: "Inconsolata", Helvetica;
   font-size: 17px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -70,7 +70,7 @@
 }
 
 .course-generator .button-2 {
-  font-family: 'Inconsolata', Helvetica !important;
+  font-family: "Inconsolata", Helvetica !important;
   font-size: 16px !important;
   font-style: unset !important;
   font-weight: 500 !important;

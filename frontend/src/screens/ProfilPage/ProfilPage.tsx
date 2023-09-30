@@ -1,11 +1,11 @@
-import React from 'react';
-import {Portfolio} from '../../components/Portfolio';
-import {QuestMap} from '../../components/QuestMap';
-import {Rectangle} from '../../components/Rectangle';
-import {SideBar} from '../../components/SideBar';
-import {StatisticInfo} from '../../components/StatisticInfo';
-import {WyzwanieMiejskie} from '../../components/WyzwanieMiejskie';
-import './style.css';
+import React from "react";
+import {Portfolio} from "../../components/Portfolio";
+import {QuestMap} from "../../components/QuestMap";
+import {Rectangle} from "../../components/Rectangle";
+import {SideBar} from "../../components/SideBar";
+import {StatisticInfo} from "../../components/StatisticInfo";
+import {WyzwanieMiejskie} from "../../components/WyzwanieMiejskie";
+import "./style.css";
 
 export const ProfilPage = (): JSX.Element => {
   return (
@@ -55,11 +55,11 @@ export const ProfilPage = (): JSX.Element => {
               overlapGroupClassName="wyzwanie-miejskie-2"
               text="Zestawienie odczytów pogodowych"
               text1={
-                'Samorząd potrzebuje twojej pomocy! \n\
+                "Samorząd potrzebuje twojej pomocy! \n\
                   Twoim zadaniem będzie utworzenie skryptu, łączącego dane z \n\
                   wszystkich punktów pomiaru pogody na obszarze gminy, \n\
                   pogrupowanych tygodniami i przygotowanie analizy na ich \n\
-                  podstawie...'
+                  podstawie..."
               }
             />
           </div>
@@ -70,7 +70,7 @@ export const ProfilPage = (): JSX.Element => {
               profilepicNude="/img/profilepic-nude.png"
               profilepicNudeClassName="rectangle-8-profileinfobox"
               spanClassName="rectangle-8-profileinfobox-instance"
-              text={'Ola Piechnik'}
+              text={"Ola Piechnik"}
               text1="10 follower/ 13 following"
             />
             <QuestMap

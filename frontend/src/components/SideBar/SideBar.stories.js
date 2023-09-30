@@ -1,7 +1,7 @@
-import {SideBar} from '.';
+import {SideBar} from ".";
 
 export default {
-  title: 'Components/SideBar',
+  title: "Components/SideBar",
   component: SideBar,
 };
 

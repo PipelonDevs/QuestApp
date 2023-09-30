@@ -25,6 +25,7 @@ class Serializer(object):
         return [element.serialize() for element in list_to_be_serialized]
 
 
+<<<<<<< HEAD
 user_course = db.Table('user_course',
     db.Column('user_id', db.Integer, db.ForeignKey('user.id'), primary_key=True),
     db.Column('course_id', db.Integer, db.ForeignKey('course.id'), primary_key=True),
@@ -53,6 +54,18 @@ course_technology = db.Table('course_technology',
     db.Column('technology_id', db.Integer, db.ForeignKey('technology.id'), primary_key=True),
 )
 
+=======
+city_challenge_technologies = db.Table("city_challenge_technologies",
+                                       db.Column("city_challenge_id", db.Integer, db.ForeignKey("city_challenge.id"),
+                                                 primary_key=True),
+                                       db.Column("technology_name", db.String, db.ForeignKey("technology.name"),
+                                                 primary_key=True)
+                                       )
+
+course_technologies = db.Table("course_technologies",
+                               db.Column("course_id", db.Integer, db.ForeignKey("course.id"), primary_key=True),
+                               db.Column("technology_name"), db.String, db.ForeignKey("technology.name"), primary_key=True)
+>>>>>>> bba64baca14f3f1d9fcac049f3c6b166da61a01b
 
 
 class CityChallenge(db.Model):
@@ -61,7 +74,12 @@ class CityChallenge(db.Model):
     title = db.Column(db.String)
     description = db.Column(db.Text)
     created_by = db.Column(db.String)
+<<<<<<< HEAD
     technologies = db.relationship("Technology", secondary=city_challange_technology, backref="city_challenges")
+=======
+    technologies = db.relationship("Technology", secondary=city_challenge_technologies, backref="city_challenges")
+
+>>>>>>> bba64baca14f3f1d9fcac049f3c6b166da61a01b
     def serialize(self):
         d = Serializer.serialize(self)
         return d
@@ -85,12 +103,14 @@ class User(db.Model):
 
 class Course(db.Model):
     __tablename__ = "course"
+
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String)
     description = db.Column(db.Text)
     technologies = db.relationship("Technology", secondary=course_technology, backref="courses")
     quests = db.relationship("Quest", backref="course")
     difficulty = db.relationship("Difficulty", backref="course")
+
     def serialize(self):
         d = Serializer.serialize(self)
         return d
@@ -98,6 +118,7 @@ class Course(db.Model):
 
 class Technology(db.Model):
     __tablename__ = "technology"
+
     name = db.Column(db.String, primary_key=True)
     tags = db.relationship("Tag", secondary=technology_tag, backref="technologies")\
 
@@ -108,6 +129,7 @@ class Technology(db.Model):
 
 class Tag(db.Model):
     __tablename__ = "tag"
+
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
 
@@ -116,8 +138,9 @@ class Tag(db.Model):
         return d
 
 
-class Quests(db.Model):
-    __tablename__ = "quests"
+class Quest(db.Model):
+    __tablename__ = "quest"
+
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
     description = db.Column(db.Text)
@@ -132,9 +155,11 @@ class Quests(db.Model):
 
 class Difficulty(db.Model):
     __tablename__ = "difficulty"
+
     name = db.Column(db.String, primary_key=True)
     course_id = db.Column(db.Integer)
 
     def serialize(self):
         d = Serializer.serialize(self)
         return d
+

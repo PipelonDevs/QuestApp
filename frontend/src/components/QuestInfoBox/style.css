@@ -11,7 +11,7 @@
 
 .quest-info-box .QUEST-NAME {
   color: #ffffff;
-  font-family: 'Inconsolata', Helvetica;
+  font-family: "Inconsolata", Helvetica;
   font-size: 37px;
   font-weight: 700;
   height: 43px;
@@ -26,7 +26,7 @@
 
 .quest-info-box .quest-desc {
   color: #ffffff;
-  font-family: 'Inconsolata', Helvetica;
+  font-family: "Inconsolata", Helvetica;
   font-size: 17px;
   font-weight: 700;
   height: 159px;

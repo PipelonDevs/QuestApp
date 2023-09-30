@@ -1,0 +1,67 @@
+.welcome-page {
+  background-color: #282a36;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.welcome-page .div-2 {
+  background-color: #282a36;
+  height: 832px;
+  position: relative;
+  width: 1280px;
+}
+
+.welcome-page .side-bar-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.welcome-page .design-component-instance-node {
+  border-color: unset !important;
+}
+
+.welcome-page .overlap-group {
+  height: 389px;
+  left: 430px;
+  position: absolute;
+  top: 46px;
+  width: 498px;
+}
+
+.welcome-page .element {
+  height: 278px;
+  left: 126px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 246px;
+}
+
+.welcome-page .text-wrapper {
+  color: #fc7a1e;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 260px;
+  width: 498px;
+}
+
+.welcome-page .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 426px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 507px;
+  width: 505px;
+}

@@ -21,7 +21,7 @@
 
 .course .COURSE-NAME {
   color: #ed9a00;
-  font-family: 'Inconsolata', Helvetica;
+  font-family: "Inconsolata", Helvetica;
   font-size: 12px;
   font-weight: 700;
   left: 4px;
@@ -34,7 +34,7 @@
 
 .course .tags {
   color: #ffffff;
-  font-family: 'Inconsolata', Helvetica;
+  font-family: "Inconsolata", Helvetica;
   font-size: 7px;
   font-weight: 700;
   left: 2px;
@@ -71,7 +71,7 @@
 
 .course .SHORT-DESC {
   color: #ffffff;
-  font-family: 'Inconsolata', Helvetica;
+  font-family: "Inconsolata", Helvetica;
   font-size: 7px;
   font-weight: 700;
   left: 3px;

@@ -1,1 +1,1 @@
-export {CourseGenerated} from './CourseGenerated';
+export {CourseGenerated} from "./CourseGenerated";

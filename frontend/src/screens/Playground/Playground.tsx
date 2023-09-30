@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react';
-import ReactMarkdown from 'react-markdown';
-import {Button} from '@mui/material';
+import React, {useState, useEffect} from "react";
+import ReactMarkdown from "react-markdown";
+import {Button} from "@mui/material";
 
-import './Playground.css';
-import sendPostRequest from '../../utils/requests';
+import "./Playground.css";
+import sendPostRequest from "../../utils/requests";
 
 type QuestResponse = {
   model_response: string;
@@ -11,7 +11,7 @@ type QuestResponse = {
 
 export default function Playground() {
   const [preview, setPreview] = useState(false);
-  const [quest, setQuest] = useState('');
+  const [quest, setQuest] = useState("");
   const [markdownText, setMarkdownText] = useState(`
   # Heading 1
   ## Heading 2
@@ -26,12 +26,12 @@ export default function Playground() {
   };
 
   const handleSubmit = async () => {
-    const prefix = 'http://192.168.1.100:5001';
+    const prefix = "http://192.168.1.100:5001";
 
     const response: QuestResponse = await sendPostRequest(
       `${prefix}/generate-quest`,
       {
-        prompt: '++',
+        prompt: "++",
       },
     );
 
@@ -41,7 +41,7 @@ export default function Playground() {
 
   return (
     <>
-      <div style={{margin: 15, display: 'flex', flexFlow: 'column'}}>
+      <div style={{margin: 15, display: "flex", flexFlow: "column"}}>
         {preview ? (
           <textarea
             className="markdown-textbox"
@@ -58,7 +58,7 @@ export default function Playground() {
           variant="contained"
           color="primary"
           onClick={handlePreview}>
-          {preview ? 'Preview' : 'Edit'}
+          {preview ? "Preview" : "Edit"}
         </Button>
         <Button
           className="preview-edit-button"

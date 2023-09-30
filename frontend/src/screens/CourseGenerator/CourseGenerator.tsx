@@ -1,14 +1,12 @@
-import React from 'react';
+import React from "react";
 // import {Button} from '../../components/Button';
-import {CourseInput} from '../../components/CourseInput';
-import {SideBar} from '../../components/SideBar';
-import {Technologychoosebox} from '../../components/Technologychoosebox';
-import {Button} from '@mui/material';
-import './style.css';
-// import {useNavigate} from 'react-router-dom';
+import {CourseInput} from "../../components/CourseInput";
+import {SideBar} from "../../components/SideBar";
+import {Technologychoosebox} from "../../components/Technologychoosebox";
+import {Button} from "@mui/material";
+import "./style.css";
 
 export const CourseGenerator = (): JSX.Element => {
-  // const navigate = useNavigate();
 
   return (
     <div className="course-generator">
@@ -34,7 +32,7 @@ export const CourseGenerator = (): JSX.Element => {
             size="medium"
             // stateProp="enabled"
             variant="contained"
-            onClick={() => console.log('GENERUJ')}>
+            onClick={() => console.log("GENERUJ")}>
             GENERUJ
           </Button>
         </div>

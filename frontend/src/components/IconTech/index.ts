@@ -1,1 +1,1 @@
-export {IconTech} from './IconTech';
+export {IconTech} from "./IconTech";

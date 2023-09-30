@@ -3,9 +3,9 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
-import PropTypes from 'prop-types';
-import React from 'react';
-import './style.css';
+import PropTypes from "prop-types";
+import React from "react";
+import "./style.css";
 
 interface Props {
   className: any;
@@ -20,11 +20,11 @@ interface Props {
 export const Rectangle = ({
   className,
   profilepicNudeClassName,
-  profilepicNude = '/img/profilepic-nude-1.svg',
+  profilepicNude = "/img/profilepic-nude-1.svg",
   USERNAMEUsernameClassName,
   spanClassName,
-  text = 'USERNAME<br/>',
-  text1 = 'x follower/ y following',
+  text = "USERNAME<br/>",
+  text1 = "x follower/ y following",
 }: Props): JSX.Element => {
   return (
     <div className={`rectangle ${className}`}>

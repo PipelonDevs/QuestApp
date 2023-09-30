@@ -3,9 +3,9 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
-import PropTypes from 'prop-types';
-import React from 'react';
-import './style.css';
+import PropTypes from "prop-types";
+import React from "react";
+import "./style.css";
 
 interface Props {
   className: any;
@@ -25,10 +25,10 @@ export const WyzwanieMiejskie = ({
   frameClassName,
   frameClassNameOverride,
   divClassName,
-  text = 'nazwa wyzwania',
+  text = "nazwa wyzwania",
   divClassNameOverride,
   divClassName1,
-  text1 = 'opis wyzwania miejskiego',
+  text1 = "opis wyzwania miejskiego",
 }: Props): JSX.Element => {
   return (
     <div className={`wyzwanie-miejskie ${className}`}>

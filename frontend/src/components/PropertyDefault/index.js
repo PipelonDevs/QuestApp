@@ -1,1 +1,1 @@
-export {PropertyDefault} from './PropertyDefault';
+export {PropertyDefault} from "./PropertyDefault";

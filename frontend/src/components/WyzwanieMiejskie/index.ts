@@ -1,1 +1,1 @@
-export {WyzwanieMiejskie} from './WyzwanieMiejskie';
+export {WyzwanieMiejskie} from "./WyzwanieMiejskie";

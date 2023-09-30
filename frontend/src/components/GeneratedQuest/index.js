@@ -1,1 +1,1 @@
-export {GeneratedQuest} from './GeneratedQuest';
+export {GeneratedQuest} from "./GeneratedQuest";

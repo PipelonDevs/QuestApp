@@ -1,9 +1,9 @@
-import React from 'react';
-import {CommentBox} from '../../components/CommentBox';
-import {PropertyDefault} from '../../components/PropertyDefault';
-import {QuestInfoBox} from '../../components/QuestInfoBox';
-import {SideBar} from '../../components/SideBar';
-import './style.css';
+import React from "react";
+import {CommentBox} from "../../components/CommentBox";
+import {PropertyDefault} from "../../components/PropertyDefault";
+import {QuestInfoBox} from "../../components/QuestInfoBox";
+import {SideBar} from "../../components/SideBar";
+import "./style.css";
 
 export const CoursePage = () => {
   return (

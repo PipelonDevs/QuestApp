@@ -1,1 +1,1 @@
-export {EasyFlagLvl} from './EasyFlagLvl';
+export {EasyFlagLvl} from "./EasyFlagLvl";

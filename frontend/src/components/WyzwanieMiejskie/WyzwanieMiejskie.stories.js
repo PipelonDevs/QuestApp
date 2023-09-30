@@ -1,7 +1,7 @@
-import {WyzwanieMiejskie} from '.';
+import {WyzwanieMiejskie} from ".";
 
 export default {
-  title: 'Components/WyzwanieMiejskie',
+  title: "Components/WyzwanieMiejskie",
   component: WyzwanieMiejskie,
 };
 
@@ -12,9 +12,9 @@ export const Default = {
     frameClassName: {},
     frameClassNameOverride: {},
     divClassName: {},
-    text: 'nazwa wyzwania',
+    text: "nazwa wyzwania",
     divClassNameOverride: {},
     divClassName1: {},
-    text1: 'opis wyzwania miejskiego',
+    text1: "opis wyzwania miejskiego",
   },
 };

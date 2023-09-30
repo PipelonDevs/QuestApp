@@ -1,1 +1,1 @@
-export {RectangleWrapper} from './RectangleWrapper';
+export {RectangleWrapper} from "./RectangleWrapper";
