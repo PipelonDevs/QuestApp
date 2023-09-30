@@ -5,10 +5,8 @@ import {SideBar} from "../../components/SideBar";
 import {Technologychoosebox} from "../../components/Technologychoosebox";
 import {Button} from "@mui/material";
 import "./style.css";
-// import {useNavigate} from 'react-router-dom';
 
 export const CourseGenerator = (): JSX.Element => {
-  // const navigate = useNavigate();
 
   return (
     <div className="course-generator">

@@ -5,6 +5,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import React from "react";
 import "./style.css";
+import {useNavigate} from 'react-router-dom';
 
 interface Props {
   rectangleClassName: any;
@@ -21,9 +22,11 @@ export const SideBar = ({
   divClassNameOverride,
   rectangleClassName1,
 }: Props): JSX.Element => {
-  return (
+    const navigate = useNavigate();
+
+    return (
     <div className="side-bar">
-      <div className="notification-button">
+      <div className="notification-button" onClick={() => console.log("Powiadomienia")}>
         <div className={`rectangle ${rectangleClassName}`} />
         <img
           className="notification-bell"
@@ -31,7 +34,7 @@ export const SideBar = ({
           src="/img/notificationbell-1.png"
         />
       </div>
-      <div className="new-course-button">
+      <div className="new-course-button" onClick={(() => console.log("button"))}>
         <div className={`rectangle ${rectangleClassNameOverride}`} />
         <img className="image" alt="Image" src="/img/image-7.png" />
       </div>
