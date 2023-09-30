@@ -9,8 +9,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    quotes: [2, 'single', {avoidEscape: true}],
-    'no-unused-vars': "off",
+    "quotes": ["off", "single"]
   },
   env: {
     browser: true,
