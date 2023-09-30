@@ -3,9 +3,9 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
-import PropTypes from "prop-types";
-import React from "react";
-import "./style.css";
+import PropTypes from 'prop-types';
+import React from 'react';
+import './style.css';
 
 interface Props {
   className: any;
@@ -18,9 +18,9 @@ interface Props {
 export const StatisticInfo = ({
   className,
   overlapGroupClassName,
-  streak = "/img/streak-1-2.png",
-  text = "statistic name",
-  text1 = "100",
+  streak = '/img/streak-1-2.png',
+  text = 'statistic name',
+  text1 = '100',
 }: Props): JSX.Element => {
   return (
     <div className={`statistic-info ${className}`}>

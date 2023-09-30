@@ -1,7 +1,7 @@
-import { IconTech } from ".";
+import {IconTech} from '.';
 
 export default {
-  title: "Components/IconTech",
+  title: 'Components/IconTech',
   component: IconTech,
 };
 

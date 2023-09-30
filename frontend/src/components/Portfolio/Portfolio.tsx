@@ -3,16 +3,16 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
-import React from "react";
-import { Course } from "../Course";
-import { IconTech } from "../IconTech";
-import "./style.css";
+import React from 'react';
+import {Course} from '../Course';
+import {IconTech} from '../IconTech';
+import './style.css';
 
 interface Props {
   className: any;
 }
 
-export const Portfolio = ({ className }: Props): JSX.Element => {
+export const Portfolio = ({className}: Props): JSX.Element => {
   return (
     <div className={`portfolio ${className}`}>
       <div className="course-2">
@@ -24,7 +24,8 @@ export const Portfolio = ({ className }: Props): JSX.Element => {
           <div className="div-wrapper">
             <div className="frame-4">
               <p className="p">
-                Kurs ma na celu nauczenie podstaw programowania w Scratch poprzez stworzenie klasycznej gry “Snake”
+                Kurs ma na celu nauczenie podstaw programowania w Scratch
+                poprzez stworzenie klasycznej gry “Snake”
               </p>
             </div>
           </div>

@@ -3,11 +3,13 @@ import React from 'react';
 import {CourseInput} from '../../components/CourseInput';
 import {SideBar} from '../../components/SideBar';
 import {Technologychoosebox} from '../../components/Technologychoosebox';
-import { Button } from '@mui/material';
+import {Button} from '@mui/material';
 import './style.css';
+import {useNavigate} from 'react-router-dom';
 
 export const CourseGenerator = (): JSX.Element => {
-  
+  const navigate = useNavigate();
+
   return (
     <div className="course-generator">
       <SideBar
@@ -32,7 +34,9 @@ export const CourseGenerator = (): JSX.Element => {
             size="medium"
             // stateProp="enabled"
             variant="contained"
-          >GENERUJ</Button>
+            onClick={() => console.log('GENERUJ')}>
+            GENERUJ
+          </Button>
         </div>
         <div className="tech-container">
           <div className="text-wrapper-3">REKOMENDOWANE TECHNOLOGIE</div>

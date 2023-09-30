@@ -39,7 +39,7 @@
 
 .wyzwanie-miejskie .nazwa-wyzwania {
   color: #ffffff;
-  font-family: "Inconsolata", Helvetica;
+  font-family: 'Inconsolata', Helvetica;
   font-size: 12px;
   font-weight: 700;
   height: 16px;
@@ -62,7 +62,7 @@
 
 .wyzwanie-miejskie .opis-wyzwania {
   color: #ffffff;
-  font-family: "Inconsolata", Helvetica;
+  font-family: 'Inconsolata', Helvetica;
   font-size: 10px;
   font-weight: 700;
   left: 11px;

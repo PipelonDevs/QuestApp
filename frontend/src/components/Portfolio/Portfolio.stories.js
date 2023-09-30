@@ -1,7 +1,7 @@
-import { Portfolio } from ".";
+import {Portfolio} from '.';
 
 export default {
-  title: "Components/Portfolio",
+  title: 'Components/Portfolio',
   component: Portfolio,
 };
 
