@@ -4,8 +4,10 @@
   border-right-style: solid;
   border-right-width: 1px;
   height: 832px;
-  position: relative;
   width: 85px;
+  position: fixed; /* Fixed positioning to keep it on the left side */
+  top: 0; /* Position from the top of the viewport */
+  left: 0;
 }
 
 .side-bar .notification-button {

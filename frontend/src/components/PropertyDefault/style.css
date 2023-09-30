@@ -1,0 +1,120 @@
+.property-default {
+  align-items: center;
+  background-color: #282a36;
+  display: inline-flex;
+  gap: 1px;
+  padding: 0px 43px;
+  position: relative;
+}
+
+.property-default .div-2 {
+  height: 196px;
+  position: relative;
+  width: 197px;
+}
+
+.property-default .overlap-group {
+  height: 123px;
+  left: 4px;
+  position: absolute;
+  top: 47px;
+  width: 74px;
+}
+
+.property-default .ellipse {
+  background-color: #18be1d;
+  border-radius: 30.5px;
+  height: 61px;
+  left: 0;
+  position: absolute;
+  top: 62px;
+  width: 61px;
+}
+
+.property-default .easy-flag-lvl-instance {
+  left: 12px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.property-default .arrow {
+  height: 72px;
+  left: 80px;
+  position: absolute;
+  top: 59px;
+  width: 113px;
+}
+
+.property-default .div-3 {
+  height: 196px;
+  position: relative;
+  width: 221px;
+}
+
+.property-default .arrow-2 {
+  height: 59px;
+  left: 77px;
+  position: absolute;
+  top: 58px;
+  width: 136px;
+}
+
+.property-default .ellipse-2 {
+  background-color: #d9d9d9;
+  border-radius: 30.5px;
+  height: 61px;
+  left: 4px;
+  position: absolute;
+  top: 17px;
+  width: 61px;
+}
+
+.property-default .ellipse-3 {
+  background-color: #ffffff;
+  border-radius: 30.5px;
+  height: 61px;
+  left: 4px;
+  position: absolute;
+  top: 109px;
+  width: 61px;
+}
+
+.property-default .last-quest {
+  height: 99.34px;
+  position: relative;
+  width: 94px;
+}
+
+.property-default .overlap {
+  height: 95px;
+  left: -2px;
+  position: relative;
+  top: 2px;
+  width: 96px;
+}
+
+.property-default .ellipse-4 {
+  background-color: #d9d9d9;
+  border-radius: 30.5px;
+  height: 61px;
+  left: 15px;
+  position: absolute;
+  top: 20px;
+  width: 61px;
+}
+
+.property-default .line {
+  height: 95px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 84px;
+}
+
+.property-default .line-2 {
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 95px;
+}

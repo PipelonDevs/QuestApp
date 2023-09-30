@@ -6,23 +6,16 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import React from 'react';
 import './style.css';
 
-interface Props {
-  rectangleClassName: any;
-  rectangleClassNameOverride: any;
-  divClassName: any;
-  divClassNameOverride: any;
-  rectangleClassName1: any;
-}
-
 export const SideBar = ({
+  className,
   rectangleClassName,
   rectangleClassNameOverride,
   divClassName,
   divClassNameOverride,
   rectangleClassName1,
-}: Props): JSX.Element => {
+}) => {
   return (
-    <div className="side-bar">
+    <div className={`side-bar ${className}`}>
       <div className="notification-button">
         <div className={`rectangle ${rectangleClassName}`} />
         <img
@@ -43,7 +36,7 @@ export const SideBar = ({
         <div className={`rectangle ${divClassNameOverride}`} />
         <img className="image-2" alt="Image" src="/img/image-5.png" />
       </div>
-      <div className="discord-button-2" onClick={() => console.log('Discord')}>
+      <div className="discord-button-2">
         <div className={`rectangle ${rectangleClassName1}`} />
         <img className="image-3" alt="Image" src="/img/image-4.png" />
       </div>
