@@ -147,3 +147,5 @@ class Difficulty(db.Model):
         d = Serializer.serialize(self)
         return d
 
+
+

@@ -4,8 +4,8 @@ import openai
 import json
 from datetime import datetime
 
-from flask import request
-from database import app, db, CityChallenge, User, Course, Technology, UserCourses, UserCityChallenges, Tag, Quests, Difficulty, CityChallengeTechnologies, TechnologyTags
+from database import app, db, CityChallenge, User, Course, Technology, Tag, Difficulty, Serializer, Quest
+
 # Replace with your actual OpenAI GPT-3 API key
 api_key = "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"
 
@@ -76,6 +76,17 @@ def add_course():
     try:
         data = request.json
         course = Course(title=data['title'], description=data['description'])
+        for q in data['quests']:
+            quest = Quest(name=q['name'], description=q['description'], is_completed=False)
+            course.quests.append(quest)
+        for t in data['technologies']:
+            technology = Technology(name=t['name'])
+            for tag in t['tags']:
+                tag = Tag(name=tag['name'])
+                technology.tags.append(tag)
+            course.technologies.append(technology)
+       # difficulty = Difficulty(name=data['difficulty'])
+        #course.difficulty = difficulty
         db.session.add(course)
         db.session.commit()
         return json.dumps({'message': 'Course added successfully'}, indent=4, sort_keys=True, default=str), 200
@@ -83,19 +94,20 @@ def add_course():
         return json.dumps({'error': 'An error occurred', 'details': str(e)}, indent=4, sort_keys=True, default=str), 500
 
 
-@app.route('/api/add_user_course', methods=['POST'])
+#add course to user
+@app.route('/api/add_course_to_user', methods=['POST'])
 @cross_origin()
-def add_user_course():
+def add_course_to_user():
     try:
         data = request.json
-        user_course = UserCourses.query.filter_by(user_id=data['user_id'], course_id=data['course_id']).first()
-        if not user_course:
-            user_course = UserCourses(user_id=data['user_id'], course_id=data['course_id'], is_finished=data['is_finished'])
-            db.session.add(user_course)
-            db.session.commit()
-        return json.dumps({'message': 'User course added successfully'}, indent=4, sort_keys=True, default=str), 200
+        user = User.query.filter_by(id=data['user_id']).first()
+        course = Course.query.filter_by(id=data['course_id']).first()
+        user.courses.append(course)
+        db.session.commit()
+        return json.dumps({'message': 'Course added to user successfully'}, indent=4, sort_keys=True, default=str), 200
     except Exception as e:
         return json.dumps({'error': 'An error occurred', 'details': str(e)}, indent=4, sort_keys=True, default=str), 500
+
 
 
 @app.route('/api/get_courses', methods=['GET'])
@@ -103,7 +115,7 @@ def add_user_course():
 def get_courses():
     try:
         courses = Course.query.all()
-        return json.dumps(Course.serialize_list(courses), indent=4, sort_keys=True, default=str), 200
+        return json.dumps(Serializer.serialize_list(courses), indent=4, sort_keys=True, default=str), 200
     except Exception as e:
         return json.dumps({'error': 'An error occurred', 'details': str(e)}, indent=4, sort_keys=True, default=str), 500
 
