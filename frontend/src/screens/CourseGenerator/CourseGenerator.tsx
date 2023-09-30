@@ -5,8 +5,10 @@ import {SideBar} from "../../components/SideBar";
 import {Technologychoosebox} from "../../components/Technologychoosebox";
 import {Button} from "@mui/material";
 import "./style.css";
+import {useNavigate} from "react-router-dom";
 
 export const CourseGenerator = (): JSX.Element => {
+  const navigate = useNavigate();
   return (
     <div className="course-generator">
       <SideBar
@@ -26,12 +28,12 @@ export const CourseGenerator = (): JSX.Element => {
           />
           <Button
             // className="button-instance"
-            color="primary"
+            color="success"
             // label="GENERUJ"
             size="medium"
             // stateProp="enabled"
             variant="contained"
-            onClick={() => console.log("GENERUJ")}>
+            onClick={() => navigate("/wygenerowany-kurs", {})}>
             GENERUJ
           </Button>
         </div>
