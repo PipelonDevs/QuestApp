@@ -9,6 +9,8 @@ import {useNavigate} from "react-router-dom";
 
 export const CourseGenerator = (): JSX.Element => {
   const navigate = useNavigate();
+
+  // const 
   return (
     <div className="course-generator">
       <SideBar
