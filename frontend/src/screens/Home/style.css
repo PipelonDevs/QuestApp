@@ -65,7 +65,7 @@
 }
 
 .home .wyzwanie-miejskie-2 {
-  border: 1.67px solid !important;
+  /*border: 1.67px solid !important;*/
   height: 103px !important;
   left: -2px !important;
   top: -2px !important;
@@ -111,7 +111,7 @@
 }
 
 .home .text-wrapper-4 {
-  color: #18be1d;
+  color: #18b21d;
   font-family: "Inconsolata", Helvetica;
   font-size: 30px;
   font-weight: 700;
@@ -161,7 +161,6 @@
 }
 
 .home .course-instance {
-  border: 1.77px solid !important;
   height: 100px !important;
   left: 6px !important;
   position: absolute !important;
@@ -425,7 +424,6 @@
 }
 
 .home .course-13 {
-  border: 1.77px solid !important;
   height: 100px !important;
   width: 537.37px !important;
 }
