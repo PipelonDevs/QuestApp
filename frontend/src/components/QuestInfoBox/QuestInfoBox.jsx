@@ -8,12 +8,12 @@ import React from 'react';
 import './style.css';
 
 export const QuestInfoBox = ({
-                               // eslint-disable-next-line react/prop-types
+  // eslint-disable-next-line react/prop-types
   className,
-                               // eslint-disable-next-line react/prop-types
+  // eslint-disable-next-line react/prop-types
   divClassName,
   text = 'QUEST NAME',
-                               // eslint-disable-next-line react/prop-types
+  // eslint-disable-next-line react/prop-types
   questDescClassName,
   text1 = 'quest desc<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.',
 }) => {

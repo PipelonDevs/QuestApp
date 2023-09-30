@@ -1,0 +1,1 @@
+export {CourseGenerated} from './CourseGenerated';

@@ -9,10 +9,10 @@ import {Button} from '../Button';
 import './style.css';
 
 export const CommentBox = ({
-                               // eslint-disable-next-line react/prop-types
+  // eslint-disable-next-line react/prop-types
   className,
   text = 'Tu jest komentarz jakis, a ogolnie to rozwiazanie wrzucilem do githuba (link)',
-                               // eslint-disable-next-line react/prop-types
+  // eslint-disable-next-line react/prop-types
   buttonSizeLargeColorClassName,
 }) => {
   return (
