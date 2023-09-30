@@ -1,0 +1,99 @@
+.course-generator {
+  align-items: flex-start;
+  background-color: #282a36;
+  display: flex;
+  height: 832px;
+  min-width: 1280px;
+  position: relative;
+  width: 100%;
+}
+
+.course-generator .side-bar-instance {
+  border-color: unset !important;
+}
+
+.course-generator .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 18px;
+  height: 449px;
+  justify-content: center;
+  padding: 0px 37px;
+  position: relative;
+}
+
+.course-generator .opis-container {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 9px;
+  height: 444px;
+  position: relative;
+}
+
+.course-generator .text-wrapper-3 {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 50px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.course-generator .course-input-instance {
+  background-color: #6b059e1a !important;
+  border: 1px solid !important;
+  border-color: #ffffff !important;
+  border-radius: 5px !important;
+}
+
+.course-generator .design-component-instance-node {
+  left: 18px !important;
+  top: 12px !important;
+}
+
+.course-generator .button-instance {
+  background-color: #18be1d !important;
+  border: 1px solid !important;
+  border-color: #4c956c !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  height: 53px !important;
+  width: 140px !important;
+}
+
+.course-generator .button-2 {
+  font-family: 'Inconsolata', Helvetica !important;
+  font-size: 16px !important;
+  font-style: unset !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.4px !important;
+  line-height: 24px !important;
+}
+
+.course-generator .tech-container {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  height: 448px;
+  position: relative;
+}
+
+.course-generator .technology-checkbox {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 191px;
+  position: relative;
+  width: 600px;
+}

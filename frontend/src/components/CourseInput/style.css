@@ -1,0 +1,21 @@
+.course-input {
+  background-color: #7c899c;
+  height: 287px;
+  position: relative;
+  width: 501px;
+}
+
+.course-input .tutaj-jest-opis {
+  color: #ffffff;
+  font-family: 'Roboto', Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 258px;
+  left: 19px;
+  letter-spacing: 0.14px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 463px;
+}

@@ -1,0 +1,114 @@
+.side-bar {
+  background-color: #fc7a1e;
+  border-color: #ffffff;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 832px;
+  position: relative;
+  width: 85px;
+}
+
+.side-bar .notification-button {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 25px;
+  position: absolute;
+  top: 159px;
+}
+
+.side-bar .rectangle {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 17.5px;
+  height: 35px;
+  position: relative;
+  width: 35px;
+}
+
+.side-bar .notification-bell {
+  height: 21px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 21px;
+}
+
+.side-bar .new-course-button {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 25px;
+  position: absolute;
+  top: 289px;
+}
+
+.side-bar .image {
+  height: 22px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 22px;
+}
+
+.side-bar .discord-button {
+  align-items: center;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  left: 25px;
+  position: absolute;
+  top: 224px;
+  width: 35px;
+}
+
+.side-bar .img {
+  height: 31px;
+  left: 2px;
+  position: absolute;
+  top: 1px;
+  width: 31px;
+}
+
+.side-bar .div {
+  align-items: center;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  left: 25px;
+  position: absolute;
+  top: 94px;
+  width: 35px;
+}
+
+.side-bar .image-2 {
+  height: 31px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 31px;
+}
+
+.side-bar .discord-button-2 {
+  align-items: center;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  left: 25px;
+  position: absolute;
+  top: 29px;
+  width: 35px;
+}
+
+.side-bar .image-3 {
+  height: 25px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 25px;
+}
