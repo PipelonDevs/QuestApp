@@ -1,0 +1,14 @@
+.markdown-textbox {
+  background-color: red;
+  min-height: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.preview-edit-button {
+  margin: 30px;
+  padding: 10px;
+  width: 100px;
+}
