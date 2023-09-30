@@ -42,11 +42,11 @@ def generate_response():
 
         # Extract the generated text
         generated_text = response.choices[0].message["content"]
-
         return jsonify({'response': generated_text})
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(debug=True)
