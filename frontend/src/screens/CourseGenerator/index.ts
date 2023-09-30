@@ -1,0 +1,1 @@
+export {CourseGenerator} from './CourseGenerator';

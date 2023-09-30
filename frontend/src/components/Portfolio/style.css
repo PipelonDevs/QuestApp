@@ -1,0 +1,207 @@
+.portfolio {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 47px;
+  padding: 13px 6px;
+  position: relative;
+}
+
+.portfolio .course-2 {
+  background-color: #6b059e1a;
+  border: 1.77px solid;
+  border-color: #ffffff;
+  border-radius: 5px;
+  height: 100px;
+  position: relative;
+  width: 537.37px;
+}
+
+.portfolio .frame-3 {
+  border-color: #ffffff;
+  border-right-style: solid;
+  border-right-width: 1.77px;
+  height: 90px;
+  left: 5px;
+  position: absolute;
+  top: 3px;
+  width: 196px;
+}
+
+.portfolio .text-wrapper {
+  color: #ed9a00;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  width: 177px;
+}
+
+.portfolio .tags-2 {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 12.4px;
+  font-weight: 700;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+  width: 181px;
+}
+
+.portfolio .overlap-group-3 {
+  height: 94px;
+  left: 203px;
+  position: absolute;
+  top: 2px;
+  width: 334px;
+}
+
+.portfolio .div-wrapper {
+  height: 90px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 3px;
+  width: 326px;
+}
+
+.portfolio .frame-4 {
+  height: 67px;
+  position: relative;
+  top: 23px;
+  width: 337px;
+}
+
+.portfolio .p {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 11px;
+  font-weight: 700;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  width: 323px;
+}
+
+.portfolio .frame-5 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 334px;
+}
+
+.portfolio .design-component-instance-node {
+  height: 18px !important;
+  left: 9px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.portfolio .design-component-instance-node-2 {
+  height: 18px !important;
+  left: 41px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.portfolio .design-component-instance-node-3 {
+  height: 18px !important;
+  left: 73px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.portfolio .design-component-instance-node-4 {
+  height: 18px !important;
+  left: 105px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}
+
+.portfolio .course-instance {
+  height: 18px;
+  left: 168px;
+  position: absolute;
+  top: 5px;
+  width: 18px;
+}
+
+.portfolio .course-3 {
+  border: 1.77px solid !important;
+  height: 100px !important;
+  width: 537.37px !important;
+}
+
+.portfolio .course-4 {
+  border-right-width: 1.77px !important;
+  height: 90px !important;
+  left: 5px !important;
+  top: 3px !important;
+  width: 196px !important;
+}
+
+.portfolio .course-5 {
+  font-size: 21.3px !important;
+  left: 7px !important;
+  top: 4px !important;
+  width: 177px !important;
+}
+
+.portfolio .course-6 {
+  font-size: 12.4px !important;
+  left: 4px !important;
+  top: 51px !important;
+  width: 181px !important;
+}
+
+.portfolio .course-7 {
+  height: 94px !important;
+  left: 203px !important;
+  top: 2px !important;
+  width: 334px !important;
+}
+
+.portfolio .course-8 {
+  height: 90px !important;
+  top: 3px !important;
+  width: 326px !important;
+}
+
+.portfolio .course-9 {
+  height: 67px !important;
+  top: 23px !important;
+  width: 337px !important;
+}
+
+.portfolio .course-10 {
+  font-size: 11px !important;
+  left: 5px !important;
+  top: 4px !important;
+  width: 323px !important;
+}
+
+.portfolio .course-11 {
+  height: 26px !important;
+  width: 334px !important;
+}
+
+.portfolio .course-12 {
+  height: 18px !important;
+  left: 137px !important;
+  position: absolute !important;
+  top: 5px !important;
+  width: 18px !important;
+}

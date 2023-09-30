@@ -1,0 +1,1 @@
+export {EasyFlagLvl} from './EasyFlagLvl';

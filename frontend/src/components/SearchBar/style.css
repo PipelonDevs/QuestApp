@@ -1,0 +1,23 @@
+.search-bar {
+  background-color: #18be1dcc;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 4px;
+  height: 27px;
+  position: relative;
+  width: 534px;
+}
+
+.search-bar .text-wrapper-3 {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  position: absolute;
+  top: -2px;
+  white-space: nowrap;
+  width: 335px;
+}

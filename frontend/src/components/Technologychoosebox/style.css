@@ -1,0 +1,52 @@
+.technologychoosebox {
+  background-color: #6b059e1a;
+  border: 1px solid;
+  border-color: #7c899c;
+  border-radius: 5px;
+  height: 57px;
+  position: relative;
+  width: 600px;
+}
+
+.technologychoosebox .TECHNOLOGY-tags {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 17px;
+  font-weight: 500;
+  height: 57px;
+  left: 197px;
+  letter-spacing: 0.4px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  white-space: nowrap;
+  width: 402px;
+}
+
+.technologychoosebox .frame {
+  border-color: #ffffff;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 57px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 166px;
+}
+
+.technologychoosebox .TECHNOLOGY-NAME {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 17px;
+  font-weight: 500;
+  height: 57px;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 166px;
+}

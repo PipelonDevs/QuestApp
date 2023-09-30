@@ -1,0 +1,100 @@
+.quest-map {
+  height: 240px;
+  width: 412px;
+}
+
+.quest-map .overlap-group-6 {
+  border-radius: 18px;
+  height: 290px;
+  position: relative;
+  top: -50px;
+}
+
+.quest-map .text-wrapper-4 {
+  color: #ffffff;
+  font-family: 'Roboto', Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 32px;
+  left: 244px;
+  letter-spacing: 0.08px;
+  line-height: 11.9px;
+  position: absolute;
+  text-align: right;
+  top: 20px;
+  width: 144px;
+}
+
+.quest-map .text-wrapper-5 {
+  color: #ffffff;
+  font-family: 'Roboto', Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  height: 32px;
+  left: 6px;
+  letter-spacing: 0.08px;
+  line-height: 11.9px;
+  position: absolute;
+  top: 21px;
+  width: 144px;
+}
+
+.quest-map .overlap {
+  height: 157px;
+  left: 0;
+  position: absolute;
+  top: 53px;
+  width: 412px;
+}
+
+.quest-map .rectangle-7-achievement-info {
+  background-color: unset !important;
+  border-color: #ffffff !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.quest-map .rectangle-instance {
+  color: #ffffff !important;
+}
+
+.quest-map .rectangle-7-achievement-info-instance {
+  background-color: unset !important;
+  border-color: #ffffff !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 77px !important;
+}
+
+.quest-map .icon-forward {
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 15px;
+  width: 44px;
+}
+
+.quest-map .icon-forward-2 {
+  height: 53px;
+  left: 18px;
+  position: absolute;
+  top: 90px;
+  width: 48px;
+}
+
+.quest-map .overlap-2 {
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 210px;
+  width: 412px;
+}
+
+.quest-map .group {
+  height: 49px;
+  left: 18px;
+  position: absolute;
+  top: 15px;
+  width: 48px;
+}
