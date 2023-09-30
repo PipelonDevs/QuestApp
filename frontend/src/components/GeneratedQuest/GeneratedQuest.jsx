@@ -10,7 +10,7 @@ import "./style.css";
 export const GeneratedQuest = ({
   text = "desc.<br/>.<br/>.",
   text1 = "Q1",
-  line = "/img/line-5.svg",
+  line = "/line-5.svg",
 }) => {
   return (
     <div className="generated-quest">
