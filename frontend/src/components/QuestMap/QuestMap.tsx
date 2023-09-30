@@ -3,17 +3,20 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
-import PropTypes from "prop-types";
-import React from "react";
-import { RectangleWrapper } from "../RectangleWrapper";
-import "./style.css";
+import PropTypes from 'prop-types';
+import React from 'react';
+import {RectangleWrapper} from '../RectangleWrapper';
+import './style.css';
 
 interface Props {
   className: any;
   iconForward: string;
 }
 
-export const QuestMap = ({ className, iconForward = "/img/icon-forward-10-seconds.png" }: Props): JSX.Element => {
+export const QuestMap = ({
+  className,
+  iconForward = '/img/icon-forward-10-seconds.png',
+}: Props): JSX.Element => {
   return (
     <div className={`quest-map ${className}`}>
       <div className="overlap-group-6">
@@ -35,7 +38,11 @@ export const QuestMap = ({ className, iconForward = "/img/icon-forward-10-second
             text1="Utrzymaj ciąg rozwiązań przez pięć dni."
           />
           <img className="icon-forward" alt="Icon forward" src={iconForward} />
-          <img className="icon-forward-2" alt="Icon forward" src="/img/icon-forward-5-seconds-1.png" />
+          <img
+            className="icon-forward-2"
+            alt="Icon forward"
+            src="/img/icon-forward-5-seconds-1.png"
+          />
         </div>
         <div className="overlap-2">
           <RectangleWrapper

@@ -1,7 +1,7 @@
-import { RectangleWrapper } from ".";
+import {RectangleWrapper} from '.';
 
 export default {
-  title: "Components/RectangleWrapper",
+  title: 'Components/RectangleWrapper',
   component: RectangleWrapper,
 };
 
@@ -9,8 +9,8 @@ export const Default = {
   args: {
     className: {},
     divClassName: {},
-    text: "TITLE",
+    text: 'TITLE',
     divClassNameOverride: {},
-    text1: "DESC",
+    text1: 'DESC',
   },
 };

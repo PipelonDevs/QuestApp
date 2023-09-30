@@ -1,7 +1,7 @@
-import { Rectangle } from ".";
+import {Rectangle} from '.';
 
 export default {
-  title: "Components/Rectangle",
+  title: 'Components/Rectangle',
   component: Rectangle,
 };
 
@@ -9,10 +9,10 @@ export const Default = {
   args: {
     className: {},
     profilepicNudeClassName: {},
-    profilepicNude: "/img/profilepic-nude-1.svg",
+    profilepicNude: '/img/profilepic-nude-1.svg',
     USERNAMEUsernameClassName: {},
     spanClassName: {},
-    text: "USERNAME<br/>",
-    text1: "x follower/ y following",
+    text: 'USERNAME<br/>',
+    text1: 'x follower/ y following',
   },
 };

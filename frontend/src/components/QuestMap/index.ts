@@ -1,1 +1,1 @@
-export { QuestMap } from "./QuestMap";
+export {QuestMap} from './QuestMap';
