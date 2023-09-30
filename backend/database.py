@@ -39,7 +39,7 @@ user_city_challenge = db.Table('user_city_challenge',
 
 
 technology_tag = db.Table('technology_tag',
-    db.Column('technology_id', db.Integer, db.ForeignKey('technology.id'), primary_key=True),
+    db.Column('technology_name', db.Integer, db.ForeignKey('technology.name'), primary_key=True),
     db.Column('tag_id', db.Integer, db.ForeignKey('tag.id'), primary_key=True),
 )
 
@@ -53,7 +53,7 @@ city_challenge_technologies = db.Table("city_challenge_technologies",
 
 course_technologies = db.Table("course_technologies",
                                db.Column("course_id", db.Integer, db.ForeignKey("course.id"), primary_key=True),
-                               db.Column("technology_name"), db.String, db.ForeignKey("technology.name"), primary_key=True)
+                               db.Column("technology_name", db.String, db.ForeignKey("technology.name"), primary_key=True))
 
 
 class CityChallenge(db.Model):
@@ -129,8 +129,8 @@ class Quest(db.Model):
     name = db.Column(db.String)
     description = db.Column(db.Text)
     is_completed = db.Column(db.Boolean)
-    course_id = db.Column(db.Integer)
     comment = db.Column(db.Text)
+    course_id = db.Column(db.Integer, db.ForeignKey("course.id"))
 
     def serialize(self):
         d = Serializer.serialize(self)
@@ -141,7 +141,7 @@ class Difficulty(db.Model):
     __tablename__ = "difficulty"
 
     name = db.Column(db.String, primary_key=True)
-    course_id = db.Column(db.Integer)
+    course_id = db.Column(db.Integer, db.ForeignKey("course.id"))
 
     def serialize(self):
         d = Serializer.serialize(self)
