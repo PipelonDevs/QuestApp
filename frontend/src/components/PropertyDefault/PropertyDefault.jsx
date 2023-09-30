@@ -9,7 +9,7 @@ import {EasyFlagLvl} from '../EasyFlagLvl';
 import './style.css';
 
 export const PropertyDefault = ({
-                                    // eslint-disable-next-line react/prop-types
+  // eslint-disable-next-line react/prop-types
   className,
   line = '/img/line-1-1.svg',
   img = '/img/line-2-1.svg',

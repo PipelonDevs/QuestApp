@@ -1,0 +1,45 @@
+.generated-quest {
+  background-color: #6b059e1a;
+  border: 1px solid;
+  border-color: #ffffff;
+  height: 84px;
+  position: relative;
+  width: 630px;
+}
+
+.generated-quest .q {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  height: 59px;
+  left: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 63px;
+}
+
+.generated-quest .desc {
+  color: #ffffff;
+  font-family: 'Inconsolata', Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 98px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+  width: 515px;
+}
+
+.generated-quest .line {
+  height: 83px;
+  left: 81px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
