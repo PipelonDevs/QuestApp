@@ -29,7 +29,6 @@ export const CourseGenerator = (): JSX.Element => {
     };
 
     sendPostRequest(url, data).then((response: res) => {
-      console.log("Course gen:", response)
       navigate("/wygenerowany-kurs", {state: {response}});
     });
   };
@@ -43,7 +42,7 @@ export const CourseGenerator = (): JSX.Element => {
         rectangleClassName1="side-bar-instance"
         rectangleClassNameOverride="side-bar-instance"
       />
-      <div className="frame-2">
+      {/*<div className="frame-2">*/}
         <div className="opis-container">
           <div className="text-wrapper-3">OPIS KURSU</div>
           <CourseInput
@@ -71,6 +70,6 @@ export const CourseGenerator = (): JSX.Element => {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };

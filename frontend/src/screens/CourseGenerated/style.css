@@ -28,9 +28,10 @@
 .course-generated .overlap-group {
   height: 450px;
   left: 85px;
-  position: absolute;
-  top: 0;
-  width: 1196px;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  display: flex;
 }
 
 .course-generated .frame {
