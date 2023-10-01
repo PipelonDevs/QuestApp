@@ -37,7 +37,6 @@ export const Rectangle = ({
         <p className={`USERNAME-username ${USERNAMEUsernameClassName}`}>
           <span className={`span ${spanClassName}`}>{text}</span>
           <span className="text-wrapper-2">
-            username@gmail.com
             <br />
             <br />
           </span>

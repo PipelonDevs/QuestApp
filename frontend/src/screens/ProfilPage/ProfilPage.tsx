@@ -70,7 +70,7 @@ export const ProfilPage = (): JSX.Element => {
               profilepicNude="/img/profilepic-nude.png"
               profilepicNudeClassName="rectangle-8-profileinfobox"
               spanClassName="rectangle-8-profileinfobox-instance"
-              text={"Ola Piechnik"}
+              text={"Ola Piech"}
               text1="10 follower/ 13 following"
             />
             <QuestMap
