@@ -4,7 +4,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 */
 
 import PropTypes from "prop-types";
-import React from "react";
+import React, {useState} from "react";
 import "./style.css";
 
 export const GeneratedQuest = ({
@@ -12,9 +12,13 @@ export const GeneratedQuest = ({
   text1 = "Q1",
   line = "/img/line-5.svg",
 }) => {
+  const [newText, setText] = useState(text);
+  const onChange = (e) => {
+    setText(e.target.value);
+    };
+
   return (
-    <textarea className="generated-quest">
-        {text}
+    <textarea className="generated-quest" value={newText} onChange={onChange}>
       {/*<div className="q">{text1}</div>*/}
       {/*<div className="desc">{text}</div>*/}
       {/*<img className="line" alt="Line" src={line} />*/}
