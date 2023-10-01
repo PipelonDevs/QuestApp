@@ -17,6 +17,24 @@ openai.api_key = api_key
 def generate_response():
     data = request.get_json()
     prompt = data.get('prompt')
+    # TEST TODO
+    return jsonify({
+    "response": [
+        "1. Zainstaluj bibliotekę PyGame, jeśli jeszcze jej nie masz.",
+        "2. Zdefiniuj planszę gry w formie siatki, na której poruszać się będzie wąż.",
+        "3. Utwórz klasę reprezentującą węża, która będzie przechowywać jego aktualne położenie, długość i kierunek poruszania się.",
+        "4. Dodaj funkcję umożliwiającą poruszanie się wężem w górę, w dół, w lewo i w prawo.",
+        "5. Utwórz klasę reprezentującą położenie jabłka na planszy.",
+        "6. Sprawdź, czy wąż zderzył się z krawędzią planszy lub z samym sobą. Jeśli tak, zakończ grę.",
+        "7. Sprawdź, czy wąż zjadł jabłko. Jeśli tak, zwiększ jego długość i utwórz nowe jabłko na losowym miejscu na planszy.",
+        "8. Wykorzystaj bibliotekę PyGame do wyświetlenia planszy, węża i jabłka.",
+        "9. Dodaj obsługę klawiatury, aby umożliwić użytkownikowi sterowanie wężem.",
+        "10. Dodaj mechanizm punktacji, aby śledzić wynik gracza podczas gry.",
+        "11. Utwórz pętlę gry, która będzie aktualizować stan węża i planszy, sprawdzać zdarzenia klawiatury i wyświetlać nowy stan gry.",
+        "12. Umieść węża na planszy na losowym początkowym położeniu i ustaw go w ruch.",
+        "13. Uruchom grę i przetestuj ją, aby upewnić się, że działa zgodnie z oczekiwaniami."
+    ]
+})
     technologies = data.get('tech')
     prompt = f"""W języku polskim, stwórz listę kroków niezbędnych do wykonania projektu podanego poniżej, na przykład:
              dla 'programowanie kalkulatora' powinno zwrócić odpowiedź podobną do:
