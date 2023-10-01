@@ -32,15 +32,6 @@ export const CourseGenerated = (): JSX.Element => {
                 text="Kurs przygotowujący do zrobienia aplikacji snake." // opis kursu
               />
             </div>
-            {/*<div className="tech-container">*/}
-            {/*  <div className="text-wrapper">EDYCJA QUESTA</div>*/}
-            {/*  <CourseInput*/}
-            {/*    className="course-input-instance"*/}
-            {/*    divClassName="course-input-3"*/}
-            {/*    text="Zainstaluj niezbędne biblioteki, takie jak PyGame, które będą używane do tworzenia aplikacji Snake w języku Python."*/}
-            {/*  />*/}
-            {/*</div>*/}
-          {/*</div>*/}
         </div>
         <div className="frame-wrapper">
           <div className="frame-3">
