@@ -3,14 +3,12 @@ from flask_cors import cross_origin
 import openai
 import json
 from datetime import datetime
-
+import os
 from database import app, db, CityChallenge, User, Course, Technology, Tag, Difficulty, Serializer, Quest
 
-# Replace with your actual OpenAI GPT-3 API key
-api_key = "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"
 
 # Initialize the OpenAI API client
-openai.api_key = api_key
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @app.route('/api/generate-response', methods=['POST'])
 @cross_origin()
