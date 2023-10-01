@@ -17,6 +17,7 @@ async function sendPostRequest(url: string, data: any): Promise<any> {
   return response;
 }
 
+
 export default sendPostRequest;
 
 // const prefix = "http://192.168.1.100:5001";
@@ -24,7 +25,7 @@ export default sendPostRequest;
 // type genQuestResponse = {
 //   model_response: string
 // }
-// sendPostRequest(`${prefix}/generate-quest`,
+// sendPostRequest(`${prefix}/generate-response`,
 //   {
 //     "prompt": "Stwórz swoje portolio www od podstaw!"
 //   }

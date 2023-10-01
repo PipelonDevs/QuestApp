@@ -29,7 +29,7 @@ export default function Playground() {
     const prefix = "http://192.168.1.100:5001";
 
     const response: QuestResponse = await sendPostRequest(
-      `${prefix}/generate-quest`,
+      `${prefix}/generate-response`,
       {
         prompt: "++",
       },
