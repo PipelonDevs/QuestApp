@@ -7,7 +7,6 @@ import { useLocation } from 'react-router-dom';
 
 export const CourseGenerated = (): JSX.Element => {
   const quests: string[] = useLocation().state.response.response;
-  console.log("Course gen:", typeof(quests));
   console.log("Course gen:", quests);
 
 

@@ -5,6 +5,11 @@
   height: 84px;
   position: relative;
   width: 630px;
+  font-family: "Inconsolata", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
 }
 
 .generated-quest .q {
