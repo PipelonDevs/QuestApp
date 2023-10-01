@@ -25,6 +25,16 @@
   border-color: unset !important;
 }
 
+.markdown-textbox {
+  background-color: red;
+  min-height: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+
 .course-generated .overlap-group {
   height: 450px;
   left: 85px;
