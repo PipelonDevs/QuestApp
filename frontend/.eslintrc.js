@@ -9,7 +9,9 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    "quotes": ["off", "single"]
+    "quotes": ["off", "single"],
+    "no-console": "off",
+    "no-unused-vars": "off",
   },
   env: {
     browser: true,

@@ -5,15 +5,15 @@ import {SideBar} from "../../components/SideBar";
 import "./style.css";
 import { useLocation } from 'react-router-dom';
 
-export const CourseGenerated = ({
-  state
-}): JSX.Element => {
-  const quests = useLocation().state.response;
+export const CourseGenerated = (): JSX.Element => {
+  const quests: string[] = useLocation().state.response.response;
+  console.log("Course gen:", typeof(quests));
   console.log("Course gen:", quests);
+
 
   return (
     <div className="course-generated">
-      <div className="div-2">
+      {/*<div className="div-2">*/}
         <SideBar
           // className="side-bar-instance"
           divClassName="design-component-instance-node"
@@ -23,43 +23,47 @@ export const CourseGenerated = ({
           rectangleClassNameOverride="design-component-instance-node"
         />
         <div className="overlap-group">
-          <div className="frame" />
-          <div className="frame-2">
+          {/*<div className="frame" />*/}
+          {/*<div className="frame-2">*/}
             <div className="opis-container">
               <div className="text-wrapper">OPIS KURSU</div>
               <CourseInput
                 className="course-input-instance"
                 divClassName="course-input-2"
-                text="Kurs przygotowujący do zrobienia aplikacji snake."
+                text="Kurs przygotowujący do zrobienia aplikacji snake." // opis kursu
               />
             </div>
-            <div className="tech-container">
-              <div className="text-wrapper">EDYCJA QUESTA</div>
-              <CourseInput
-                className="course-input-instance"
-                divClassName="course-input-3"
-                text="Zainstaluj niezbędne biblioteki, takie jak PyGame, które będą używane do tworzenia aplikacji Snake w języku Python."
-              />
-            </div>
-          </div>
+            {/*<div className="tech-container">*/}
+            {/*  <div className="text-wrapper">EDYCJA QUESTA</div>*/}
+            {/*  <CourseInput*/}
+            {/*    className="course-input-instance"*/}
+            {/*    divClassName="course-input-3"*/}
+            {/*    text="Zainstaluj niezbędne biblioteki, takie jak PyGame, które będą używane do tworzenia aplikacji Snake w języku Python."*/}
+            {/*  />*/}
+            {/*</div>*/}
+          {/*</div>*/}
         </div>
         <div className="frame-wrapper">
           <div className="frame-3">
-            <GeneratedQuest text="Zainstaluj niezbędne biblioteki, takie jak PyGame, które będą używane do tworzenia aplikacji Snake w języku Python." />
-            <GeneratedQuest
-              text="Zdefiniuj planszę gry, określając jej szerokość, wysokość i rozmiar pojedynczego elementu."
-              text1="Q2"
-            />
-            <GeneratedQuest
-              line="/img/line-5-1.svg"
-              text="Utwórz obiekt węża, który będzie składał się z pojedynczych segmentów. Początkowo będzie składał się z jednego segmentu i będzie umieszczony w środku planszy."
-              text1="Q3"
-            />
+            <ShowQuests quests={quests} />
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
+
+function ShowQuests({ quests }: { quests: string[] }) {
+  const questsList = quests.map((quest, index) => {
+    return (
+      <GeneratedQuest
+        text={quest}
+        key={index}
+        text1="" // TODO: add quest number or not?
+      />
+    );
+  });
+  return <>{questsList}</>;
+}
 
