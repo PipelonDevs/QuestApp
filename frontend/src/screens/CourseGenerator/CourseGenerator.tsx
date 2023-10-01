@@ -6,11 +6,34 @@ import {Technologychoosebox} from "../../components/Technologychoosebox";
 import {Button} from "@mui/material";
 import "./style.css";
 import {useNavigate} from "react-router-dom";
+import {API_URL} from "../../utils/const";
+import sendPostRequest from "../../utils/requests";
+
+type reqBody = {
+  prompt: string;
+  tech: string[];
+};
+
+type res = {
+  response: string[];
+};
 
 export const CourseGenerator = (): JSX.Element => {
   const navigate = useNavigate();
 
-  // const 
+  const handleGenerate = () => {
+    const url = `${API_URL}/generate-response`;
+    const data: reqBody = {
+      prompt: "Kurs przygotowujący do zrobienia aplikacji snake.",
+      tech: ["python", "pygame", "aseprite"],
+    };
+
+    sendPostRequest(url, data).then((response: res) => {
+      console.log("Course gen:", response)
+      navigate("/wygenerowany-kurs", {state: {response}});
+    });
+  };
+
   return (
     <div className="course-generator">
       <SideBar
@@ -35,7 +58,7 @@ export const CourseGenerator = (): JSX.Element => {
             size="medium"
             // stateProp="enabled"
             variant="contained"
-            onClick={() => navigate("/wygenerowany-kurs", {})}>
+            onClick={handleGenerate}>
             GENERUJ
           </Button>
         </div>

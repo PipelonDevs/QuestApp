@@ -3,13 +3,19 @@ import {CourseInput} from "../../components/CourseInput";
 import {GeneratedQuest} from "../../components/GeneratedQuest";
 import {SideBar} from "../../components/SideBar";
 import "./style.css";
+import { useLocation } from 'react-router-dom';
 
-export const CourseGenerated = () => {
+export const CourseGenerated = ({
+  state
+}): JSX.Element => {
+  const quests = useLocation().state.response;
+  console.log("Course gen:", quests);
+
   return (
     <div className="course-generated">
       <div className="div-2">
         <SideBar
-          className="side-bar-instance"
+          // className="side-bar-instance"
           divClassName="design-component-instance-node"
           divClassNameOverride="design-component-instance-node"
           rectangleClassName="design-component-instance-node"
@@ -55,3 +61,5 @@ export const CourseGenerated = () => {
     </div>
   );
 };
+
+

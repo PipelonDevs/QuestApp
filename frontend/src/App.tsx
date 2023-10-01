@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/stworz-kurs" element={<CourseGenerator />} />
-        <Route path="/wygenerowany-kurs" element={<CourseGenerated />} />
+        <Route path="/wygenerowany-kurs" element={<CourseGenerated/>} />
         <Route path="/kurs" element={<CoursePage />} />
         <Route path="/profil" element={<ProfilPage />} />
         <Route path="/witamy" element={<WelcomePage />} />
